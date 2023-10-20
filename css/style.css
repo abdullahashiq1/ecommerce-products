@@ -1,0 +1,36 @@
+.carousel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-slide {
+    flex: 0 0 100%; /* Each slide takes full width */
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel img {
+    width: 100%; /* Make the image fill the slide */
+    height: 600px
+  }
+
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 29px; /* Adjust the font size as needed */
+    cursor: pointer;
+    color:rgb(211, 217, 89)
+  }
+  
+  .prev-btn {
+    left: 30px;
+    margin-left: 30px;
+  }
+  
+  .next-btn {
+    right: 30px;    
+    margin-right: 30px;
+
+  }
+  
